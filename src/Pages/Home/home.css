@@ -1,0 +1,445 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 90px;
+    background-color: #F7FAFC;
+
+    /* first-hero */
+
+    .hero-first {
+        background-color: #FFFFFF;
+        display: flex;
+        gap: 2px;
+        justify-content: space-between;
+        padding: 20px;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+
+        .left-hero-first {
+            width: 18%;
+
+            .ant-menu ant-menu-root ant-menu-vertical ant-menu-light css-dev-only-do-not-override-tchc97 css-var-root ant-menu-css-var {
+                width: 100%;
+            }
+        }
+
+        .center-hero-first {
+            width: 64%;
+            background-image: url("public/Banner-board-800x420 2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 43px;
+
+            div {
+                margin-bottom: 20px;
+                line-height: 30px;
+            }
+
+            div>p {
+                font-size: 23px;
+                font-weight: 400;
+            }
+
+            div>.items {
+                font-size: 28px;
+                font-weight: 700;
+            }
+        }
+
+        .right-hero-first {
+            width: 16%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .top-right-hero-first {
+                background-color: #E3F0FF;
+                height: 150px;
+                padding: 15px;
+                border-radius: 5px;
+
+                .contant-top-right-hero-first {
+                    display: flex;
+                    gap: 8px;
+                    margin-bottom: 10px;
+                    align-items: center;
+
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                    }
+                }
+
+                .btn-top-right-hero-first {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                }
+            }
+
+            .bottom-right-hero-first {
+                background-color: #F38332;
+                height: 110px;
+                padding: 15px;
+                border-radius: 5px;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    /* second-hero */
+
+    .hero-second {
+        background-color: #FFFFFF;
+        height: 240px;
+        display: flex;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+
+        .left-card-hero-second {
+            width: 20%;
+
+            div>.Deals {
+                font-size: 20px;
+                font-weight: 600;
+                color: #1C1C1C;
+            }
+
+            div>p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #8B96A5;
+            }
+
+            .down-right-card-hero-second {
+                display: flex;
+                gap: 5px;
+                margin-top: 20px;
+
+                .sub-card {
+                    width: 40px;
+                    height: 45px;
+                    background-color: #606060;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 5px;
+                    color: #FFFFFF;
+                    line-height: 16px;
+
+                    .date {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .right-card-hero-second {
+            width: 16%;
+            background-color: #FFFFFF;
+
+            img {
+                height: 110px;
+                width: 110px;
+            }
+
+            div {
+                margin-top: 10px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #1C1C1C;
+                }
+
+                .per {
+                    width: 61px;
+                    height: 28px;
+                    background-color: #FFE3E3;
+                    border-radius: 29px;
+                    color: #EB001B;
+                }
+            }
+
+        }
+    }
+
+    /* third-hero */
+
+    .hero-third {
+        height: 257px;
+        display: flex;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+
+        .left-card-hero-third {
+            width: 20%;
+            background-image: url("public/Group 969.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            div {
+                line-height: 26px;
+                margin-bottom: 16px;
+            }
+
+            div>p {
+                font-size: 20px;
+                font-weight: 600;
+                color: #1C1C1C;
+            }
+
+        }
+
+        .right-card-hero-third {
+            width: 80%;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-wrap: wrap;
+
+            .sub-card-right-card-hero-third {
+                width: 25%;
+                height: 50%;
+
+                p {
+                    color: #1C1C1C;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 5px;
+                }
+
+                .form {
+                    display: flex;
+                    justify-content: space-between;
+
+                    div>p {
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 100%;
+                        color: #8B96A5;
+                    }
+
+                    img {
+                        width: 66px;
+                        height: 69px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    /* fifth-hero */
+
+    .hero-fifth {
+        height: 420px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+        padding: 40px;
+        background-image: url('public/Group 982.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .left-hero-fifth {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            color: #FFFFFF;
+
+            .up-left-hero-fifth {
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 100%;
+            }
+
+            .down-left-hero-fifth {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+        .right-hero-fifth {
+            width: 45%;
+        }
+    }
+
+    /* sixth-hero */
+
+    .hero-sixth {
+        height: 696px;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+
+        p {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+
+        .card-hero-sixth {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .sub-card-hero-sixth {
+                width: 18.5%;
+                height: 310px;
+
+                img {
+                    width: 200px;
+                    height: 180px;
+                    margin-bottom: 30px;
+                }
+
+                .rate {
+                    color: #1C1C1C;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 10px;
+                }
+
+                p {
+                    color: #8B96A5;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 2px;
+                }
+            }
+        }
+    }
+
+    .hero-seventh {
+        height: 256px;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+
+        p {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+
+        .card-hero-seventh {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28.5px;
+
+            .sub-card-hero-seventh {
+                width: 23%;
+                height: 200px;
+                border: 1px solid #EFF2F4;
+                border-radius: 12px;
+                background-color: #FFFFFF;
+
+                .img {
+                    height: 120px;
+
+                     img{
+                        height: 100%;
+                     }
+
+                }
+
+                .but-sub-card-hero-seventh {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 15px;
+
+                    div {
+                        padding: 20px;
+                        p {
+                            color: #1C1C1C;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 2px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .hero-eight {
+        height: 138px;
+        border: 1px solid #DEE2E7;
+        border-radius: 5px;
+
+        p {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+
+        .card-hero-eight {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+
+            .sub-card-hero-eight {
+                width: 19.5%;
+                height: 36px;
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                padding-left: 5px;
+
+                img{
+                    width: 28px;
+                    height: 20px;
+                }
+
+                .right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .up{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 1.2;
+                    }
+                    .down{
+                        font-size: 11px;
+                        font-weight: 400;
+                        line-height: 1.2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#hero-fourth {
+    background-image: url("public/image 98.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
