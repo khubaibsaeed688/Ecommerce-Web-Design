@@ -1,0 +1,12 @@
+nav {
+    ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    ul>li:hover {
+        font-size: 15px;
+        cursor: pointer;
+        color: #8CB7F5;
+    }
+}

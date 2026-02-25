@@ -89,6 +89,12 @@ footer {
                 justify-content: space-between;
                 font-size: 25px;
             }
+
+            .social-logo>span:hover{
+                cursor: pointer;
+                font-size: 24px;
+                color: #8CB7F5;
+            }
         }
 
         .second-top-second-footer {
@@ -112,6 +118,10 @@ footer {
                 color: #8B96A5;
                 font-size: 13px;
                 line-height: 25px;
+            }
+            div>p:hover{
+                cursor: pointer;
+                color: #8CB7F5;
             }
         }
 

@@ -1,0 +1,57 @@
+.down-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    .card{
+        height: 405px;
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .up-card{
+            height: 240px;
+            border-bottom: 1px solid #EFF2F4;
+            img{
+                height: 202;
+                width: 202px;
+            }
+        }
+
+        .down-card{
+            height: 140px;
+            display: flex;
+            justify-content: space-between;
+
+            .right-down-card{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .rate-right{
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #1c1c1c;
+
+                    span{
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-decoration: line-through;
+                    }
+                }
+
+                .rating-card{
+                    color: #FF9017;
+                }
+
+                p{
+                    color: #606060;
+                }
+            }
+        }
+    }
+
+    .card:hover{
+        transform: translateY(-8px);
+        cursor: pointer;
+    }
+}

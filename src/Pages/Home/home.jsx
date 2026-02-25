@@ -485,7 +485,7 @@ const Home = () => {
                                     <Input placeholder='Quantity' />
                                 </Form.Item>
                                 <Form.Item >
-                                    <Select options={[{ label: 'Demo', value: 'demo' }]} placeholder='Pcs' />
+                                    <Select options={[{ label: 'Demo', value: 'demo' }]} placeholder='Pcs' style={{width:100}} />
                                 </Form.Item>
                             </Flex>
 

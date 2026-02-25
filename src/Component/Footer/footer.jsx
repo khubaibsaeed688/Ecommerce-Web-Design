@@ -71,10 +71,10 @@ const Footer = () => {
             </div>
             <p>Best information about the company gies here but now lorem ipsum is</p>
             <div className="social-logo">
-              <FacebookOutlined />
-              <TwitterOutlined />
-              <LinkedinOutlined />
-              <InstagramOutlined />
+              <span><FacebookOutlined /></span>
+              <span><TwitterOutlined /></span>
+              <span><LinkedinOutlined /></span>
+              <span><InstagramOutlined /></span>
             </div>
           </div>
           <div className="second-top-second-footer">

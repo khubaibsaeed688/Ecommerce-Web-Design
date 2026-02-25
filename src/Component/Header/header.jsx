@@ -3,6 +3,7 @@ import { Header } from 'antd/es/layout/layout'
 import "./header.css"
 import Search from 'antd/es/transfer/search'
 import { DownOutlined, HeartOutlined, MenuUnfoldOutlined, MessageOutlined, ShoppingCartOutlined, UserOutlined } from '@ant-design/icons'
+import Nav from '../Nav/nav'
 
 const Headers = () => {
     return (
@@ -55,6 +56,7 @@ const Headers = () => {
                         <p>Ship to <DownOutlined /></p>
                     </div>
                 </nav>
+                <Nav/>
         </>
     )
 }
