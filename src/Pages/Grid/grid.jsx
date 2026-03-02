@@ -92,15 +92,15 @@ const items = [
 ];
 
 const Products = [
-  { img: 'public/image 33.png' },
-  { img: 'public/image22.png' },
-  { img: 'public/image 23.png' },
-  { img: 'public/image 32.png' },
-  { img: 'public/6.png' },
-  { img: 'public/image22.png' },
-  { img: 'public/image 34.png' },
-  { img: 'public/8.png' },
-  { img: 'public/image 33.png' },
+  { img: 'Ecommerce-Web-Design/public/image 33.png' },
+  { img: 'Ecommerce-Web-Design/public/image22.png' },
+  { img: 'Ecommerce-Web-Design/public/image 23.png' },
+  { img: 'Ecommerce-Web-Design/public/image 32.png' },
+  { img: 'Ecommerce-Web-Design/public/6.png' },
+  { img: 'Ecommerce-Web-Design/public/image22.png' },
+  { img: 'Ecommerce-Web-Design/public/image 34.png' },
+  { img: 'Ecommerce-Web-Design/public/8.png' },
+  { img: 'Ecommerce-Web-Design/public/image 33.png' },
 ];
 
 const Grid = () => {

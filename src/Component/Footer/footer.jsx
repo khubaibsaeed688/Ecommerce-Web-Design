@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="top-second-footer">
           <div className="first-top-second-footer">
             <div className="demo-footer">
-              <img src="public\image.png" alt="" />
+              <img src="Ecommerce-Web-Design/public/image.png" alt="" />
               <p>Brand</p>
             </div>
             <p>Best information about the company gies here but now lorem ipsum is</p>
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
         <div className="buttom-second-footer">
           <p>© 2023 Ecommerce. </p>
-          <p><img src="public\flags\US@2x.png" alt="" />English</p>
+          <p><img src="Ecommerce-Web-Design/public/flags\US@2x.png" alt="" />English</p>
         </div>
       </div>
     </>

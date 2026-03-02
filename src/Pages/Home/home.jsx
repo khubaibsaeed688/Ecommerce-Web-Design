@@ -46,27 +46,27 @@ const items = [
 
 const cardsHeroSecond = [
     {
-        img: "public/8.png",
+        img: "Ecommerce-Web-Design/public/8.png",
         name: "Smart watches",
         discount: "-25%",
     },
     {
-        img: "public/image 34.png",
+        img: "Ecommerce-Web-Design/public/image 34.png",
         name: "Laptops",
         discount: "-15%",
     },
     {
-        img: "public/6.png",
+        img: "Ecommerce-Web-Design/public/6.png",
         name: "GoPro cameras",
         discount: "-40%",
     },
     {
-        img: "public/image 29.png",
+        img: "Ecommerce-Web-Design/public/image 29.png",
         name: "Headphones",
         discount: "-25%",
     },
     {
-        img: "public/image 23.png",
+        img: "Ecommerce-Web-Design/public/image 23.png",
         name: "Canon camreras",
         discount: "-25%",
     },
@@ -74,49 +74,49 @@ const cardsHeroSecond = [
 
 const cardsHeroThird = [
     {
-        img: "public/1.png",
+        img: "Ecommerce-Web-Design/public/1.png",
         name: "Soft chairs",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/06.png",
+        img: "Ecommerce-Web-Design/public/06.png",
         name: "Sofa & chair",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/image 93.png",
+        img: "Ecommerce-Web-Design/public/image 93.png",
         name: "Kitchen dishes",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/3.png",
+        img: "Ecommerce-Web-Design/public/3.png",
         name: "Smart watches",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/9.png",
+        img: "Ecommerce-Web-Design/public/9.png",
         name: "Kitchen mixer",
         first_discrption: "From",
         second_discrption: "USD 100",
     },
     {
-        img: "public/08.png",
+        img: "Ecommerce-Web-Design/public/08.png",
         name: "Blenders",
         first_discrption: "From",
         second_discrption: "USD 39",
     },
     {
-        img: "public/7.png",
+        img: "Ecommerce-Web-Design/public/7.png",
         name: "Home appliance",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/image 89.png",
+        img: "Ecommerce-Web-Design/public/image 89.png",
         name: "Coffee maker",
         first_discrption: "From",
         second_discrption: "USD 10",
@@ -125,49 +125,49 @@ const cardsHeroThird = [
 
 const consumersHeroThird = [
     {
-        img: "public/8.png",
+        img: "Ecommerce-Web-Design/public/8.png",
         name: "Smart watches",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/6.png",
+        img: "Ecommerce-Web-Design/public/6.png",
         name: "Cameras",
         first_discrption: "From",
         second_discrption: "USD 89",
     },
     {
-        img: "public/image 86.png",
+        img: "Ecommerce-Web-Design/public/image 86.png",
         name: "Headphones",
         first_discrption: "From",
         second_discrption: "USD 10",
     },
     {
-        img: "public/image 85.png",
+        img: "Ecommerce-Web-Design/public/image 85.png",
         name: "Smart watches",
         first_discrption: "From",
         second_discrption: "USD 90",
     },
     {
-        img: "public/image 29.png",
+        img: "Ecommerce-Web-Design/public/image 29.png",
         name: "Gaming set",
         first_discrption: "From",
         second_discrption: "USD 35",
     },
     {
-        img: "public/image 34.png",
+        img: "Ecommerce-Web-Design/public/image 34.png",
         name: "Laptops & PC",
         first_discrption: "From",
         second_discrption: "USD 340",
     },
     {
-        img: "public/image 32.png",
+        img: "Ecommerce-Web-Design/public/image 32.png",
         name: "Smartphones",
         first_discrption: "From",
         second_discrption: "USD 19",
     },
     {
-        img: "public/image 33.png",
+        img: "Ecommerce-Web-Design/public/image 33.png",
         name: "Electric kattle",
         first_discrption: "From",
         second_discrption: "USD 240",
@@ -176,61 +176,61 @@ const consumersHeroThird = [
 
 const Recommendeds = [
     {
-        img1: "public/cloth/Bitmap.png",
+        img1: "Ecommerce-Web-Design/public/cloth/Bitmap.png",
         name1: "$10.30",
         first_discrption1: "T-shirts with multiple",
         second_discrption1: "colors, for men",
     },
     {
-        img1: "public/cloth/2 1.png",
+        img1: "Ecommerce-Web-Design/public/cloth/2 1.png",
         name1: "$10.30",
         first_discrption1: "Jeans shorts for men",
         second_discrption1: "blue color",
     },
     {
-        img1: "public/cloth/image 30.png",
+        img1: "Ecommerce-Web-Design/public/cloth/image 30.png",
         name1: "$12.50",
         first_discrption1: "Brown winter coat",
         second_discrption1: "medium size",
     },
     {
-        img1: "public/cloth/image 24.png",
+        img1: "Ecommerce-Web-Design/public/cloth/image 24.png",
         name1: "$34.00",
         first_discrption1: "Jeans shorts for men",
         second_discrption1: "blue color",
     },
     {
-        img1: "public/cloth/image 26.png",
+        img1: "Ecommerce-Web-Design/public/cloth/image 26.png",
         name1: "$99.00",
         first_discrption1: "Leather wallet",
         second_discrption1: "",
     },
     {
-        img1: "public/cloth/Bitmap (2).png",
+        img1: "Ecommerce-Web-Design/public/cloth/Bitmap (2).png",
         name1: "$9.99",
         first_discrption1: "Canon camera ",
         second_discrption1: "black, 100x zoom",
     },
     {
-        img1: "public/image 86.png",
+        img1: "Ecommerce-Web-Design/public/image 86.png",
         name1: "$8.99",
         first_discrption1: "Headset for gaming",
         second_discrption1: "with mic",
     },
     {
-        img1: "public/cloth/image 26.png",
+        img1: "Ecommerce-Web-Design/public/cloth/image 26.png",
         name1: "$10.30",
         first_discrption1: "Smartwatch",
         second_discrption1: "silver color modern",
     },
     {
-        img1: "public/3.png",
+        img1: "Ecommerce-Web-Design/public/3.png",
         name1: "$10.30",
         first_discrption1: "Blue wallet for men",
         second_discrption1: "leather metarfial",
     },
     {
-        img1: "public/image 85.png",
+        img1: "Ecommerce-Web-Design/public/image 85.png",
         name1: "$80.95",
         first_discrption1: "Jeans bag for travel",
         second_discrption1: "for men",
@@ -239,25 +239,25 @@ const Recommendeds = [
 
 const Fasts = [
     {
-        img2: 'public/Mask group.png',
+        img2: 'Ecommerce-Web-Design/public/Mask group.png',
         description2: 'Source from',
         description_2: 'Industry Hubs',
         icon2: <SearchOutlined />,
     },
     {
-        img2: 'public/Mask group (1).png',
+        img2: 'Ecommerce-Web-Design/public/Mask group (1).png',
         description2: 'Customize Your',
         description_2: 'Products',
         icon2: <Archive />,
     },
     {
-        img2: 'public/image 106.png',
+        img2: 'Ecommerce-Web-Design/public/image 106.png',
         description2: 'Fast, reliable shipping',
         description_2: 'by ocean or air',
         icon2: <SendOutlined />,
     },
     {
-        img2: 'public/image 107.png',
+        img2: 'Ecommerce-Web-Design/public/image 107.png',
         description2: 'Product monitoring',
         description_2: 'and inspection',
         icon2: <Shield />,
@@ -266,52 +266,52 @@ const Fasts = [
 
 const Country =[
     {
-      img:'public/flags/AE@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/AE@2x.png',
       name:'Arabic Emirates',
       product:'shopname.ae',
     },
     {
-      img:'public/flags/icon.png',
+      img:'Ecommerce-Web-Design/public/flags/icon.png',
       name:'Australia',
       product:'shopname.ae',
     },
     {
-      img:'public/flags/US@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/US@2x.png',
       name:'United States',
       product:'shopname.ae',
     },
     {
-      img:'public/flags/RU@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/RU@2x.png',
       name:'Russia',
       product:'shopname.ru',
     },
     {
-      img:'public/flags/IT@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/IT@2x.png',
       name:'Italy',
       product:'shopname.it',
     },
     {
-      img:'public/flags/DK@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/DK@2x.png',
       name:'Denmark',
       product:'denmark.com.dk',
     },
     {
-      img:'public/flags/FR@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/FR@2x.png',
       name:'France',
       product:'shopname.com.fr',
     },
     {
-      img:'public/flags/AE@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/AE@2x.png',
       name:'Arabic Emirates',
       product:'shopname.ae',
     },
     {
-      img:'public/flags/CN@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/CN@2x.png',
       name:'China',
       product:'shopname.ae',
     },
     {
-      img:'public/flags/GB@2x.png',
+      img:'Ecommerce-Web-Design/public/flags/GB@2x.png',
       name:'Great Britain',
       product:'shopname.co.uk',
     },
@@ -392,7 +392,7 @@ const Home = () => {
                 </Card>
 
                 {cardsHeroSecond.map((card) => (<Card className='right-card-hero-second'>
-                    <img src={card.img} alt="" />
+                    <img src = {card.img}  />
                     <div>
                         <p>{card.name}</p>
                         <p className='per'>{card.discount}</p>
@@ -418,7 +418,7 @@ const Home = () => {
                                 <p>{elem.first_discrption}</p>
                                 <p>{elem.second_discrption}</p>
                             </div>
-                            <img src={elem.img} alt="" />
+                            <img src={elem.img}/>
                         </div>
                     </Card>))}
 
@@ -443,7 +443,7 @@ const Home = () => {
                                 <p>{consumer.first_discrption}</p>
                                 <p>{consumer.second_discrption}</p>
                             </div>
-                            <img src={consumer.img} alt="" />
+                            <img src={consumer.img} />
                         </div>
                     </Card>))}
 
@@ -539,7 +539,7 @@ const Home = () => {
                 <p>Suppliers by region</p>
                 <div className="card-hero-eight">
                     {Country.map((con) => (<div className="sub-card-hero-eight">
-                        <img src={con.img} alt="" />
+                        <img src={con.img}  />
                         <div className="right">
                             <span className='up'>{con.name}</span>
                             <span className='down'>{con.product}</span>

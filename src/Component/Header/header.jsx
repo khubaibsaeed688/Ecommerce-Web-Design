@@ -10,7 +10,7 @@ const Headers = () => {
         <>
                 <header>
                     <div className="demo-logo">
-                        <img src="public\image.png" alt="" />
+                        <img src="Ecommerce-Web-Design/public/image.png" alt="" />
                         <h1>Brand</h1>
                     </div>
                     <div className="search-bar-navbar">

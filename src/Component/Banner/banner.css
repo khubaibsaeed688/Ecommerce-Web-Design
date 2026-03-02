@@ -1,0 +1,10 @@
+.banner{
+   background: linear-gradient(
+    110deg, 
+    #237CFF 0%, 
+    #237CFF 60%, 
+    #005ADE 60%, 
+    #005ADE 100%
+  );
+  margin-bottom: 5em;
+}

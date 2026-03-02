@@ -5,27 +5,27 @@ import { HeartOutlined } from '@ant-design/icons'
 
 const Categorys = [
     {
-        img: 'public/image 33.png',
+        img: 'Ecommerce-Web-Design/public/image 33.png',
         name: 'Canon Cmera EOS 2000, Black 10x zoom'
     },
     {
-        img: 'public/image 23.png',
+        img: 'Ecommerce-Web-Design/public/image 23.png',
         name: 'GoPro HERO6 4K Action Camera - Black'
     },
     {
-        img: 'public/image 32.png',
+        img: 'Ecommerce-Web-Design/public/image 32.png',
         name: 'GoPro HERO6 4K Action Camera - Black'
     },
     {
-        img: 'public/image 34.png',
+        img: 'Ecommerce-Web-Design/public/image 34.png',
         name: 'GoPro HERO6 4K Action Camera - Black'
     },
     {
-        img: 'public/8.png',
+        img: 'Ecommerce-Web-Design/public/8.png',
         name: 'GoPro HERO6 4K Action Camera - Black'
     },
     {
-        img: 'public/image 86.png',
+        img: 'Ecommerce-Web-Design/public/image 86.png',
         name: 'GoPro HERO6 4K Action Camera - Black'
     },
 ];

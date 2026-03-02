@@ -1,0 +1,155 @@
+.my-card{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+.Market{
+    display: flex;
+    gap: 12px;
+
+    .Seller{
+        width: 75%;
+
+        .shirts{
+            display: flex;
+            gap: 12px;
+
+            img{
+                width: 80px;
+                height: 80px;
+                padding: 8px;
+                border: 1px solid #E0E0E0;
+                border-radius: 6px;
+            }
+
+            .T-shirts{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+                .with{
+                    font-weight: 500;
+                    color: #1C1C1C;
+                }
+
+                p{
+                    color: #8B96A5;
+                }
+            }
+        }
+
+        .Qty{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: end;
+
+            p{
+                font-weight: 500;
+                color: #1C1C1C;
+            }
+        }
+
+        hr{
+            margin: 20px 0;
+        }
+    }
+
+    .coupon{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .Have{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            p{
+                color: #505050;
+            }
+        }
+    }
+
+    hr{
+        color: #E4E4E4;
+    }
+
+    .total{
+        font-weight: 600;
+        color: #1C1C1C;
+        margin-top: 12px;
+    }
+
+    .Checkout{
+        width: 100%;
+        margin-top: 15px;
+        background-color: #00B517;
+        color: white;
+        height: 8vh;
+    }
+}
+
+.section-2{
+    display: flex;
+    
+    .sub-section-2-1{
+        width: 25%;
+
+        .lock-icon{
+            border-radius: 50%;
+            background-color: #DEE2E7;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Have{
+            color: #A9ACB0;
+        }
+    }
+}
+
+.section-3{
+    
+    .Saved{
+        font-size: 20px;
+        font-weight: 600;
+        color: #1C1C1C;
+        margin-bottom: 12px;
+    }
+
+    .later{
+        display: flex;
+        gap: 12px;
+
+        .sub-later{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: start;
+
+            img{
+                height: 240px;
+                width: 100%;
+                padding: 20px;
+                background-color: #EEEEEE;
+            }
+
+            p{
+                color: #606060;
+            }
+
+            .GoPro{
+                font-size: 18px;
+                font-weight: 600;
+                color: #1C1C1C;
+            }
+        }
+    }
+}
