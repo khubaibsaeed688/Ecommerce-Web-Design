@@ -1,6 +1,8 @@
+import { Globe, Heart, ShieldEllipsis } from 'lucide-react';
 import Banner from '../../Component/Banner/banner';
 import './detail.css'
-import { Button, Card, Descriptions, Flex, Rate, Tabs } from 'antd'
+import { Button, Card, Col, Descriptions, Flex, Image, Rate, Row, Tabs } from 'antd'
+import { useState } from 'react';
 
 const data = [
   { label: 'Model', value: '#8786867' },
@@ -146,42 +148,152 @@ const Mens = [
 
 const Related = [
   {
-  img:"Ecommerce-Web-Design/public/cloth/image 24.png",
+    img: "Ecommerce-Web-Design/public/cloth/image 24.png",
   },
   {
-  img:"Ecommerce-Web-Design/public/8.png",
+    img: "Ecommerce-Web-Design/public/8.png",
   },
   {
-  img:"Ecommerce-Web-Design/public/image 86.png",
+    img: "Ecommerce-Web-Design/public/image 86.png",
   },
   {
-  img:"Ecommerce-Web-Design/public/cloth/Bitmap (2).png",
+    img: "Ecommerce-Web-Design/public/cloth/Bitmap (2).png",
   },
   {
-  img:"Ecommerce-Web-Design/public/image 85.png",
+    img: "Ecommerce-Web-Design/public/image 85.png",
   },
   {
-  img:"Ecommerce-Web-Design/public/7.png",
+    img: "Ecommerce-Web-Design/public/7.png",
   },
 ];
 
 const Detail = () => {
+  const images = [
+    "Ecommerce-Web-Design/public/cloth/image 001.jpg",
+    "Ecommerce-Web-Design/public/cloth/image 002.jpg",
+    "Ecommerce-Web-Design/public/cloth/image 003.jpg",
+    "Ecommerce-Web-Design/public/cloth/image 004.jpg",
+    "Ecommerce-Web-Design/public/cloth/image 005.jpg",
+    "Ecommerce-Web-Design/public/cloth/image 006.jpg",
+  ];
+  const [mainImage, setMainImage] = useState(images[0]);
   return (
     <main>
       <section className='first-section-detail'>
         <div className="sub-container1">
-          dhfjakhl
+
+            <Flex vertical gap={15}>
+            <Card>
+              <Image
+                src={mainImage}
+                width="100%"
+                height={320}
+                style={{ marginBottom: 15 }}
+                preview={false}
+              />
+            </Card>
+
+            <Row gutter={10} justify="center">
+              {images.map((img, index) => (
+                <Col key={index}>
+                  <Image
+                    src={img}
+                    width={50}
+                    height={50}
+                    preview={false}
+                    onClick={() => setMainImage(img)}
+                    style={{
+                      cursor: "pointer",
+                      border:
+                        mainImage === img
+                          ? "2px solid #1677ff"
+                          : "1px solid #ddd",
+                      padding: 2,
+                      borderRadius: 5,
+                    }}
+                  />
+                </Col>
+              ))}
+            </Row>
+            </Flex>
+
         </div>
         <div className="sub-container2">
-          <Button type='link' style={{color:'#00B517'}}>✔️ In stock</Button>
+          <Button type='link' style={{ color: '#00B517' }}>✔️ In stock</Button>
           <p className='Mens'>Mens Long Sleeve T-shirt Cotton Base <br /> Layer Slim Muscle</p>
           <div className='sold'>
-            <span style={{color:'#FF9017'}}><Rate style={{fontSize:12}}/>9.3</span>
+            <span style={{ color: '#FF9017' }}><Rate style={{ fontSize: 12 }} />9.3</span>
             <span>32 reviews</span>
             <span>154 sold</span>
           </div>
+          <Card style={{backgroundColor:'#FFF0DF'}}>
+          <Flex justify='space-between'>
+            <div className='Classic'>
+              <p className='shoes'>$98.00</p>
+              <p>50-100 pcs</p>
+            </div>
+            <div className='Classic' style={{borderLeft:'1px solid #BDC1C8', padding: '0 20px'}}>
+              <p className='shoes'>$90.00</p>
+              <p>100-700 pcs</p>
+            </div>
+            <div className='Classic' style={{borderLeft:'1px solid #BDC1C8', padding: '0 20px'}}>
+              <p className='shoes'>$78.00</p>
+              <p>700+ pcs</p>
+            </div>
+          </Flex>
+          </Card>
+          <div className="Price">
+            <p className='Neg'>Price: </p>
+            <p className='Negotiable'>Negotiable</p>
+          </div>
+          <div className="Type">
+            <div className="Plastic">
+              <p className='Mat'>Type: </p>
+              <p className='Material'>Classic  shoes</p>
+            </div>
+            <div className="Plastic">
+              <p className='Mat'>Material: </p>
+              <p className='Material'>Plastic material</p>
+            </div>
+            <div className="Plastic">
+              <p className='Mat'>Design: </p>
+              <p className='Material'>Modern nice</p>
+            </div>
+          </div>
+          <div className="Type">
+            <div className="Plastic">
+              <p className='Mat'>Customization: </p>
+              <p className='Material'>Customized logo and <br /> design custom packages</p>
+            </div>
+            <div className="Plastic">
+              <p className='Mat'>Protection: </p>
+              <p className='Material'>Refund Policy</p>
+            </div>
+            <div className="Plastic">
+              <p className='Mat'>Warranty: </p>
+              <p className='Material'>2 years full warranty </p>
+            </div>
+          </div>
         </div>
-        <div className="sub-container3">hdsfh</div>
+        <div className="sub-container3">
+          <Card>
+            <div className="right-sub-container3">
+              <p className='Supplier'>R</p>
+              <p>Supplier <br /> Guanjoi Trading LLC</p>
+            </div>
+            <hr />
+            <div className='Berlin'>
+              <p><img src="Ecommerce-Web-Design/public/flags/DE@2x.png" alt="" />Germany, Berlin</p>
+              <p><ShieldEllipsis /> Verified Seller</p>
+              <p><Globe /> Worldwide shipping</p>
+            </div>
+            <div className='Berli'>
+              <Button type='primary'>Send inquiry</Button>
+              <Button style={{ color: '#0D6EFD' }}>Seller’s profile</Button>
+            </div>
+          </Card>
+          <Button type='link'><Heart />Save for later</Button>
+        </div>
       </section>
       <section className='second-section-detail'>
         <Card className='left-second-section-detail'>
@@ -224,7 +336,7 @@ const Detail = () => {
         </Card>
       </section>
       <section>
-        <Banner/>
+        <Banner />
       </section>
     </main>
   )
